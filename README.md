@@ -1,6 +1,7 @@
 # GovChain
 
 ## Overview
+![Alt text](src/frontend/src/assets/GovChain_logo.png)
 
 GovChain is a blockchain-powered governance and distribution platform that ensures transparent, efficient, and corruption-free management of public funds, relief materials, and government incentives. By leveraging the power of decentralized technology, GovChain enables governments, private organizations, and citizens to participate in a secure, traceable, and tamper-proof ecosystem for resource distribution and tender bidding.
 
