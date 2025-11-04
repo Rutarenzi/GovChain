@@ -16,9 +16,9 @@ const Welcome=({name, role})=>{
         navigate('/Citizens/Programs')
     }
     return(
-        <div className="h-screen w-full overflow-clip bg-[#65a8fd] relative">
+        <div className="h-screen w-full overflow-clip bg-black relative">
             <div className="flex  justify-between p-5">
-                <span className="ml-4 text-white font-bold text-xl"> GovTransChain</span>
+                <span className="ml-4 text-white font-bold text-xl"> GovChain</span>
                 <span className="mr-4 bg-[#65a8fd] p-2 text-white font-bold shadow-sm rounded-full">?</span>
             </div>
 
@@ -30,17 +30,17 @@ const Welcome=({name, role})=>{
 
                 
                 {role=="HIGH_OFFICIAL" && 
-                <Button  onClick={goToHigh} className="w-1/2  mt-6 bg-[#0f82e0] text-xl text-bold text-white">
+                <Button  onClick={goToHigh} className="w-1/2  mt-6 bg-white hover:bg-white hover:text-black text-xl text-bold text-black">
                     Dashboard
                 </Button>
                 }
                 {role=="LOCAL_LEADER" && 
-                <Button  onClick={goToLocal} className="w-1/2  mt-6 bg-[#0f82e0] text-xl text-bold text-white">
+                <Button  onClick={goToLocal} className="w-1/2  mt-6 bg-white hover:bg-white hover:text-black text-xl text-bold text-black">
                     Dashboard
                 </Button>
                 }
                 {role=="CITIZEN" && 
-                <Button  onClick={goToCiti} className="w-1/2  mt-6 bg-[#0f82e0] text-xl text-bold text-white">
+                <Button  onClick={goToCiti} className="w-1/2  mt-6 bg-white hover:bg-white hover:text-black text-xl text-bold text-black">
                     Dashboard
                 </Button>
                 }

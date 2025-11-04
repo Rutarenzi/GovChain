@@ -114,7 +114,7 @@ your application will be available at `http://localhost:8000?canisterId={asset_c
 ` http://{canisterId}.localhost:8000/`
 
 * Homepage
-![Alt text](src/frontend/src/assets/Homepage-1.png)
+![Alt text](src/frontend/src/assets/homepage.png)
 
 * Onboarding
 ![Alt text](src/frontend/src/assets/onBoard-1.png)
